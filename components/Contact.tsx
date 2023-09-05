@@ -8,7 +8,7 @@ const Contact = () => (
   >
     <p className="font-titleFont text-lg text-textGreen font-semibold felx items-center tracking-wide">
       {" "}
-      04. What's Next?
+      04. What`s Next?
     </p>
     <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
     <p className="max-w-[600px] text-center text-textDark">
