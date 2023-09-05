@@ -23,7 +23,7 @@ const Banner = () => {
       >
         Ahmed Alhusaini{" "}
         <span className="text-textDark mt-2 lgl:mt-4">
-          I turn IDEAS into REALITY.
+          I turn ideas into web-sites.
         </span>
       </motion.h1>
       <motion.p

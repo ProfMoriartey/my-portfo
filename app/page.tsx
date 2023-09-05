@@ -2,6 +2,7 @@
 
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Experience from "@/components/Experience";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
 import RightSide from "@/components/RightSide";
@@ -23,7 +24,7 @@ export default function Home() {
         <div className="h-[88vh] w-full mx-auto p-4">
           <Banner />
           <About />
-          {/* Experience  */}
+          <Experience />
           {/* Projects */}
           {/* Archive */}
           {/* Contact */}
