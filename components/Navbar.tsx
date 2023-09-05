@@ -8,7 +8,7 @@ import { delay } from "framer-motion/dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full  h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full max-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -16,12 +16,13 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
         >
           <Image
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             quality="95"
             priority={true}
-            src="/logo.png"
+            src="/logoo.png"
             alt="logo"
+            className="mdl:ml-6"
           />
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">

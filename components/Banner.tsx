@@ -11,7 +11,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 1.5, duration: 0.5 }}
-        className="text-lg font-titleFont tracking-wide text-textGreen"
+        className="text-lg font-titleFont tracking-wide text-textGreen lgl:pt-5"
       >
         Hi, my name is
       </motion.h3>
@@ -21,9 +21,9 @@ const Banner = () => {
         transition={{ delay: 2, duration: 0.5 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Ahmed Alhusaini.{" "}
+        Ahmed Alhusaini{" "}
         <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+          I turn IDEAS into REALITY.
         </span>
       </motion.h1>
       <motion.p
@@ -33,16 +33,9 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
         {" "}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed
-        incidunt neque, deleniti odit corporis maiores, quidem voluptatibus quos
-        quibusdam eaque facilis dolores doloremque nesciunt sit reiciendis nobis
-        qui. Atque, nulla eveniet ipsam recusandae iure quidem, incidunt soluta
-        quod tempore velit vero ullam architecto quae sed laboriosam. Blanditiis
-        modi quis praesentium alias facere enim, rerum eaque tempora asperiores
-        minima delectus, recusandae deleniti deserunt ullam. Eveniet alias
-        reprehenderit, tempore corporis dolores dolor quidem voluptatum eaque
-        rerum harum ad unde nostrum ratione neque reiciendis deserunt
-        praesentium, ex exercitationem ullam.{" "}
+        I am a self-taught web developer. I have a strong foundation in
+        front-end development and I am skilled in creating user-friendly and
+        responsive web applications.{" "}
       </motion.p>
       <motion.button
         initial={{ y: 10, opacity: 0 }}
