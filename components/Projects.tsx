@@ -26,6 +26,7 @@ const Projects = () => {
                   alt="project1"
                   width={1000}
                   height={1000}
+                  className="rounded-lg"
                 />
               </div>
             </a>
@@ -73,6 +74,104 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
+              href="outrede.com"
+              target="_blank"
+            >
+              <div>
+                <Image
+                  src="/outrede.png"
+                  alt="project2"
+                  width={1000}
+                  height={1000}
+                  className="rounded-lg"
+                />
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-left z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Feature Project
+              </p>
+              <h3 className="text-2xl font-bold">Outrede</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md ">
+                Website for marketing company that offers different services.
+                Custom design according to the company`s theme.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  href="outrede.com"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  {" "}
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project three */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
+              href="https://profmoriartey.github.io/Etch-a-Sketch/"
+              target="_blank"
+            >
+              <div>
+                <Image
+                  src="/sketchpad.png"
+                  alt="project1"
+                  width={1000}
+                  height={1000}
+                  className="rounded-lg"
+                />
+              </div>
+            </a>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-left xl:-ml-16 z-10">
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Feature Project
+              </p>
+              <h3 className="text-2xl font-bold">Etch-a-Sketch</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ">
+                Fun little game built with HTML and CSS, This project was one of
+                my early works where I learned CSS and HTML fundamentals.
+              </p>
+              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Github Deployment</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <a
+                  href="https://github.com/ProfMoriartey/Etch-a-Sketch"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  {" "}
+                  <TbBrandGithub />
+                </a>
+                <a
+                  href="https://profmoriartey.github.io/Etch-a-Sketch/"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  {" "}
+                  <RxOpenInNewWindow />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Project four */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          <div className="flex flex-col xl:flex-row-reverse gap-6">
+            <a
+              className="w-full xl:w-1/2 h-auto relative group"
               href="https://add-to-cart-cute-cat.netlify.app/"
               target="_blank"
             >
@@ -82,6 +181,7 @@ const Projects = () => {
                   alt="project2"
                   width={1000}
                   height={1000}
+                  className="rounded-lg"
                 />
               </div>
             </a>
@@ -114,58 +214,6 @@ const Projects = () => {
                 </a>
                 <a
                   href="https://add-to-cart-cute-cat.netlify.app/"
-                  target="_blank"
-                  className="hover:text-textGreen duration-300"
-                >
-                  {" "}
-                  <RxOpenInNewWindow />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Project three */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-          <div className="flex flex-col xl:flex-row gap-6">
-            <a
-              className="w-full xl:w-1/2 h-auto relative group"
-              href="https://profmoriartey.github.io/Etch-a-Sketch/"
-              target="_blank"
-            >
-              <div>
-                <Image
-                  src="/sketchpad.png"
-                  alt="project1"
-                  width={1000}
-                  height={1000}
-                />
-              </div>
-            </a>
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-left xl:-ml-16 z-10">
-              <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                Feature Project
-              </p>
-              <h3 className="text-2xl font-bold">Etch-a-Sketch</h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ">
-                Fun little game built with HTML and CSS, This project was one of
-                my early works where I learned CSS and HTML fundamentals.
-              </p>
-              <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>Github Deployment</li>
-              </ul>
-              <div className="text-2xl flex gap-4">
-                <a
-                  href="https://github.com/ProfMoriartey/Etch-a-Sketch"
-                  target="_blank"
-                  className="hover:text-textGreen duration-300"
-                >
-                  {" "}
-                  <TbBrandGithub />
-                </a>
-                <a
-                  href="https://profmoriartey.github.io/Etch-a-Sketch/"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
