@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ahmed Alhusaini | Full Stack Developer",
+  title: "Ahmed Alhusaini | Front End Developer",
   description:
     "Ahmed Alhusaini is a Front End Developer who likes to help create new and interesting websites as well as learning about new things",
 };

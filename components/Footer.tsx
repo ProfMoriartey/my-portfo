@@ -4,28 +4,43 @@ import { SlSocialLinkedin, SlSocialInstagram } from "react-icons/sl";
 
 const Footer = () => {
   return (
-    <div className="inline-flex xl:hidden items-center justify-center w-full py-6 gap-4">
-      <a href="https://github.com/ProfMoriartey" target="_blank">
-        <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <TbBrandGithub />
-        </span>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/ahmed-alhusaini-75b1621a4"
-        target="_blank"
-      >
-        <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <SlSocialLinkedin />
-        </span>
-      </a>
-      <a
-        href="https://instagram.com/ahmedalhusaini_?igshid=OGQ5ZDc2ODk2ZA=="
-        target="_blank"
-      >
-        <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <SlSocialInstagram />
-        </span>
-      </a>
+    <div className="flex flex-col justify-between items-center">
+      <div className="inline-flex xl:hidden items-center justify-center w-full py-6 gap-4">
+        <a href="https://github.com/ProfMoriartey" target="_blank">
+          <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+            <TbBrandGithub />
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ahmed-alhusaini-75b1621a4"
+          target="_blank"
+        >
+          <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+            <SlSocialLinkedin />
+          </span>
+        </a>
+        <a
+          href="https://instagram.com/ahmedalhusaini_?igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+        >
+          <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+            <SlSocialInstagram />
+          </span>
+        </a>
+      </div>
+      <div className="w-2/3 h-12 flex flex-col justify-center items-center">
+        <p className="max-w-[600px] text-center text-xs text-textDark">
+          © 2023 Ahmed Alhusaini. All rights reserved.
+        </p>
+        <p className=" text-center text-xs text-textDark">
+          About this website: built with React & Next.js (App Router & Server
+          Actions), TypeScript, Tailwind CSS, Framer Motion, React Email &
+          Resend, Vercel hosting.
+        </p>
+        <p className="max-w-[600px] text-center text-xs text-textDark">
+          Inspired by: <a href="https://brittanychiang.com/">Brittany Chiang</a>
+        </p>
+      </div>
     </div>
   );
 };
