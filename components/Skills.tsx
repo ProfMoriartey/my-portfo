@@ -25,9 +25,9 @@ const Skills = () => {
       className="max-w-containerSmall mx-auto py-20 lgl:py-24 px-4"
     >
       <SectionTitle title={"Technologies I've Worked with:"} titleNo={"02"} />
-      <div className="flex flex-col mt-12 gap-9">
+      <div className="flex sm:flex-col mt-12 gap-9 flex-row">
         {/* Languages */}
-        <div className="flex flex-row items-center justify-between gap-2">
+        <div className="flex sm:flex-row flex-col items-center justify-between gap-2">
           <h2 className="mr-0.5">Languages:</h2>
           <a
             href="https://www.w3schools.com/tags/tag_doctype.asp"
@@ -60,8 +60,8 @@ const Skills = () => {
           </a>
         </div>
         {/* Frameworks  */}
-        <div className="flex flex-row items-center justify-between gap-2">
-          <h2 className="-mr-1.5">Frameworks:</h2>
+        <div className="flex sm:flex-row flex-col items-center justify-between gap-2">
+          <h2 className="-mr-2 sm:-mr-1.5">Frameworks:</h2>
           <a href="https://angular.io/" target="_blank">
             <span className="w-12 h-12 text-4xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
               <TbBrandAngular />
@@ -89,8 +89,8 @@ const Skills = () => {
           </a>
         </div>
         {/* Tools   */}
-        <div className="flex flex-row items-center justify-between gap-2">
-          <h2 className="mr-14 sm:mr-10">Tools:</h2>
+        <div className="flex sm:flex-row flex-col items-center justify-between gap-2">
+          <h2 className="sm:mr-11">Tools:</h2>
           <a href="https://www.figma.com/" target="_blank">
             <span className="w-12 h-12  text-4xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
               <TbBrandFigma />
