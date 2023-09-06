@@ -10,7 +10,7 @@ const Projects = () => {
       id="projects"
       className="max-w-containermd mx-auto lgl:px-20 py-24"
     >
-      <SectionTitle title={"Some Things I have Built"} titleNo={"03"} />
+      <SectionTitle title={"Things I have Built"} titleNo={"03"} />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         {/* Project one */}
         <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
@@ -33,7 +33,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Feature Project
               </p>
-              <h3 className="text-2xl font-bold">Personal Portfolio</h3>
+              <h3 className="text-2xl font-bold">Tutor`s Portfolio</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ">
                 A personal portfolio website built with NextJs, TypeScript and
                 Tailwind. Using NextJs routing and framer motion`s smooth
@@ -105,7 +105,7 @@ const Projects = () => {
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
-                  href="https://github.com/ProfMoriartey/aramis-portfolio"
+                  href="https://github.com/ProfMoriartey/cart-cat"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >

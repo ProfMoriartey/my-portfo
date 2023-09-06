@@ -12,8 +12,8 @@ const Contact = () => (
     </p>
     <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
     <p className="max-w-[600px] text-center text-textDark">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-      doloremque, voluptates nulla ullam eius animi?
+      If you want to get in touch with me, have any questions or want to talk
+      about web development, dont hesitate to contact me.
     </p>
     <a href="mailto:ahmed.a.alhusaini@gmail.com">
       {" "}

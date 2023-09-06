@@ -34,8 +34,7 @@ const Footer = () => {
         </p>
         <p className=" text-center text-xs text-textDark">
           About this website: built with React & Next.js (App Router & Server
-          Actions), TypeScript, Tailwind CSS, Framer Motion, React Email &
-          Resend, Vercel hosting.
+          Actions), TypeScript, Tailwind CSS, Framer Motion, Vercel hosting.
         </p>
         <p className="max-w-[600px] text-center text-xs text-textDark">
           Inspired by: <a href="https://brittanychiang.com/">Brittany Chiang</a>
