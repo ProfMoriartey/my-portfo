@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="max-w-containerSmall mx-auto py-10 lgl:py-32 flex flex-col gap-8"
+      className="max-w-containerSmall mx-auto py-20 lgl:py-32 flex flex-col gap-8"
     >
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
@@ -31,7 +31,10 @@ const About = () => {
             trying to remake websites I liked.
             {/* {" "}<span className="text-textGreen">aspernatur sint nam eius</span>{" "} */}
           </p>
-          <p>Languages I speak: </p>
+          <p>
+            {" "}
+            <span className="text-textGreen">Languages I speak:</span>{" "}
+          </p>
           <ul className="max-w-[450px] text-sm font-titleFont flex justify-between gap-2 mt-2">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

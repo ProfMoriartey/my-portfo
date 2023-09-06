@@ -32,7 +32,7 @@ const Navbar = () => {
     }
   }
   return (
-    <div className="w-full  h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <section className="w-full  h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full max-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -126,14 +126,17 @@ const Navbar = () => {
           </a>
         </div>
         {/* Small Icon Section */}
-        <div
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
           onClick={() => setShowMenu(true)}
           className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group:"
         >
           <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-0 translate-x-3 transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-3 translate-x-1 transition-all ease-in-out duration-300"></span>
-        </div>
+        </motion.div>
         {showMenu && (
           <div
             ref={(node) => (ref.current = node)}
@@ -268,7 +271,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

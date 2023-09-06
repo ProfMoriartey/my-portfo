@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="max-w-containerSmall mx-auto py-10 lgl:py-24 px-4"
+      className="max-w-containerSmall mx-auto py-20 lgl:py-24 px-4"
     >
       <SectionTitle title={"Technologies I've Worked with:"} titleNo={"02"} />
       <div className="flex flex-col mt-12 gap-9">
