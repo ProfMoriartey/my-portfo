@@ -39,7 +39,11 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
         >
-          <Link href="#home" onClick={handleScroll}>
+          <Link
+            href="#home"
+            className="scroll-mt-[90px]"
+            onClick={handleScroll}
+          >
             <Image
               width={50}
               height={50}
@@ -47,7 +51,7 @@ const Navbar = () => {
               priority={true}
               src="/logoo.png"
               alt="logo"
-              className="mdl:ml-6"
+              className="mdl:ml-6 scroll-mt-10"
             />
           </Link>
         </motion.div>
@@ -56,7 +60,7 @@ const Navbar = () => {
             <Link
               href="#about"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 scroll-mt-10 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -70,7 +74,7 @@ const Navbar = () => {
             <Link
               href="#skills"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center gap-1 scroll-mt-10 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -84,7 +88,7 @@ const Navbar = () => {
             <Link
               href="#projects"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center scroll-mt-10 gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -98,7 +102,7 @@ const Navbar = () => {
             <Link
               href="#contact"
               onClick={handleScroll}
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+              className="flex items-center scroll-mt-10 gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
@@ -110,7 +114,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/CV-Ahmed-Alhusaini.pdf" target="_blank">
+          <a href="/ahmed-alhusaini-CV.pdf" target="_blank">
             <motion.button
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -151,7 +155,7 @@ const Navbar = () => {
                   <Link
                     href="#about"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 scroll-mt-16 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ y: -10, opacity: 0 }}
@@ -165,7 +169,7 @@ const Navbar = () => {
                   <Link
                     href="#skills"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 scroll-mt-10 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ y: -10, opacity: 0 }}
@@ -179,7 +183,7 @@ const Navbar = () => {
                   <Link
                     href="#projects"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 scroll-mt-10 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ y: -10, opacity: 0 }}
@@ -193,7 +197,7 @@ const Navbar = () => {
                   <Link
                     href="#contact"
                     onClick={handleScroll}
-                    className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    className="flex items-center gap-1 scroll-mt-10 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
                   >
                     <motion.li
                       initial={{ y: -10, opacity: 0 }}

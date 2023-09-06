@@ -12,6 +12,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p className="mt-5">
+            Hello! My name is Ahmed and I like making things that live online.
             Since I was a child I was always fascinated by technology and
             computers. In high school, programming was my favorite subject. even
             though I did not major in computer science or programming, I started
