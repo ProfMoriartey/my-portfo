@@ -32,14 +32,14 @@ const About = () => {
               <Image
                 src="/profilePic.png"
                 alt="Profile Picture"
-                className="rounded-lg h-full object-cover grayscale group-hover:grayscale-0 group-hover:translate-x-1 group-hover:translate-y-1 duration-300 "
+                className="rounded-lg h-full object-cover lgl:grayscale group-hover:grayscale-0 group-hover:-translate-x-1 group-hover:-translate-y-1 duration-300 "
                 width={400}
                 height={400}
               />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
-          <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"></div>
+          <div className="hidden lgl:inline-flex w-[19rem] h-[19rem] border-2 border-textGreen rounded-md group-hover:translate-x-1 group-hover:translate-y-1 transition-transform duration-300"></div>
         </div>
       </div>
     </section>

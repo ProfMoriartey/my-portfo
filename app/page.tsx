@@ -9,6 +9,7 @@ import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
+import Skills from "@/components/Skills";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
         <div className="h-[88vh] w-full mx-auto p-4">
           <Banner />
           <About />
-          <Experience />
+          <Skills />
           <Projects />
           {/* Archive */}
           <Contact />

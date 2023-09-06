@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const Contact = () => (
   <section
     id="contact"
-    className="max-w-contentContainer mx-auto py-24 xl:py-36 flex flex-col gap-4 items-center justify-center"
+    className="max-w-contentContainer mx-auto py-24 xl:py-36 xl:mb-16 flex flex-col gap-4 items-center justify-center"
   >
     <p className="font-titleFont text-lg text-textGreen font-semibold felx items-center tracking-wide">
       {" "}
