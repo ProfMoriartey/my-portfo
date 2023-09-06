@@ -1,6 +1,11 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
+import { AiFillCaretRight } from "react-icons/ai";
+import { TbPoint } from "react-icons/tb";
+import { BsCircle } from "react-icons/bs";
+import { BiCircle } from "react-icons/bi";
+import { LuCircle } from "react-icons/lu";
 
 const About = () => {
   return (
@@ -11,21 +16,48 @@ const About = () => {
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
-          <p className="mt-5">
+          <p>
             Hello! My name is Ahmed and I like making things that live online.
             Since I was a child I was always fascinated by technology and
             computers. In high school, programming was my favorite subject. even
             though I did not major in computer science or programming, I started
             learning about web development in my free time with a big interest.
-            after some time, I started taking it more seriously by joining
-            online courses and researching it more. I hit a lot of tough spots;
-            from confusing tutorials to fixing errors that sometimes took days
-            to understand and fix. There was no set plan, no teacher`s feedback
-            – just me pushing myself. But the satisfaction of mastering skills
-            kept me going. I learned from open sources, by building small
-            projects and trying to remake websites I liked.
+            after some time, I started taking it more seriously by researching
+            it more and joining online courses. I hit a lot of tough spots; from
+            confusing tutorials to errors that sometimes took days to understand
+            and fix. There was no set plan, no teacher`s feedback – just me
+            pushing myself. But, the satisfaction of mastering skills kept me
+            going. I learned from open sources, by building small projects and
+            trying to remake websites I liked.
             {/* {" "}<span className="text-textGreen">aspernatur sint nam eius</span>{" "} */}
           </p>
+          <p>Languages I speak: </p>
+          <ul className="max-w-[450px] text-sm font-titleFont flex justify-between gap-2 mt-2">
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <LuCircle />
+              </span>
+              English
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <LuCircle />
+              </span>
+              Arabic
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <LuCircle />
+              </span>
+              Spanish
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <LuCircle />
+              </span>
+              Turkish
+            </li>
+          </ul>
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">

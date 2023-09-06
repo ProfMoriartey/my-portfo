@@ -36,10 +36,10 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Tutor`s Portfolio</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ">
-                A personal portfolio website built with NextJs, TypeScript and
-                Tailwind. Using NextJs routing and framer motion`s smooth
-                animation makes the website easy to navigate and user friendly.
-                Light and dark theme support.
+                A personal portfolio website for an English and Spanish tutor.
+                Built with NextJs, TypeScript and Tailwind. Using NextJs routing
+                and framer motion`s smooth animation makes the website easy to
+                navigate and user friendly. Light and dark theme support.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>NextJs</li>
@@ -124,7 +124,7 @@ const Projects = () => {
             >
               <div>
                 <Image
-                  src="/sketchpad.png"
+                  src="/sketch.png"
                   alt="project1"
                   width={1000}
                   height={1000}
@@ -138,8 +138,9 @@ const Projects = () => {
               </p>
               <h3 className="text-2xl font-bold">Etch-a-Sketch</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ">
-                Fun little game built with HTML and CSS, This project was one of
-                my early works where I learned CSS and HTML fundamentals.
+                Fun little sketch pad game built with HTML and CSS, It was one
+                of my earliest works where I learned CSS and HTML fundamentals
+                as well as github deployment.
               </p>
               <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                 <li>CSS</li>
