@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import { TbBrandGithub } from "react-icons/tb";
 import { RxOpenInNewWindow } from "react-icons/rx";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -13,7 +14,12 @@ const Projects = () => {
       <SectionTitle title={"Things I have Built"} titleNo={"03"} />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         {/* Project one */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <motion.div
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.3 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10"
+        >
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -68,9 +74,14 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* Project two */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <motion.div
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.3 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10"
+        >
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -113,9 +124,14 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* Project three */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <motion.div
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.3 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10"
+        >
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -167,9 +183,14 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* Project four */}
-        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <motion.div
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.3 }}
+          className="w-full flex flex-col items-center justify-center gap-28 mt-10"
+        >
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
@@ -224,7 +245,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
