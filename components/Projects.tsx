@@ -74,7 +74,7 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row-reverse gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="outrede.com"
+              href="https://outrede.com"
               target="_blank"
             >
               <div>
@@ -103,7 +103,7 @@ const Projects = () => {
               </ul>
               <div className="text-2xl flex gap-4">
                 <a
-                  href="outrede.com"
+                  href="https://outrede.com"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
