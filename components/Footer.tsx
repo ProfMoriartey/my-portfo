@@ -30,12 +30,9 @@ const Footer = () => {
       </div>
       <div className="w-2/3 h-12 flex flex-col justify-center items-center">
         <p className="max-w-[600px] text-center text-xs text-textDark">
-          © 2023 Ahmed Alhusaini. All rights reserved.
+          © 2025 Ahmed Alhusaini. All rights reserved.
         </p>
-        <p className=" text-center text-xs text-textDark">
-          About this website: built with React & Next.js (App Router & Server
-          Actions), TypeScript, Tailwind CSS, Framer Motion, Vercel hosting.
-        </p>
+
         <p className="max-w-[600px] text-center text-xs text-textDark">
           Inspired by: <a href="https://brittanychiang.com/">Brittany Chiang</a>
         </p>
