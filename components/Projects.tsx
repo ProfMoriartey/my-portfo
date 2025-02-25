@@ -100,7 +100,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Feature Project
               </p>
-              <h3 className="text-2xl font-bold">Tutor's Personal Protfolio</h3>
+              <h3 className="text-2xl font-bold">Tutor Personal Protfolio</h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md ">
                 A personal portfolio website for an English and Spanish tutor.
                 Built with NextJs, TypeScript and Tailwind. Using NextJs routing
