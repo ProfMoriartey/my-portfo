@@ -66,7 +66,7 @@ const About = () => {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex justify-center items-center pl-6 lgl:pl-0 ">
               <Image
-                src="/profilePic.png"
+                src="/about-pic.jpg"
                 alt="Profile Picture"
                 className="rounded-lg h-full object-cover lgl:grayscale group-hover:grayscale-0 group-hover:-translate-x-1 group-hover:-translate-y-1 duration-300 "
                 width={400}
