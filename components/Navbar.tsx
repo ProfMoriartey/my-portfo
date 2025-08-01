@@ -32,7 +32,7 @@ const Navbar = () => {
     }
   }
   return (
-    <section className="w-full  h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <section className="w-full  h-20 lg:h-[12vh]  top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full max-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -114,7 +114,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/ahmed-alhusaini-CV.pdf" target="_blank">
+          <a href="/ahmed-alhusaini-cv.pdf" target="_blank">
             <motion.button
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -212,7 +212,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/ahmed-alhusaini-CV.pdf" target="_blank">
+                <a href="/ahmed-alhusaini-cv.pdf" target="_blank">
                   <motion.button
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
