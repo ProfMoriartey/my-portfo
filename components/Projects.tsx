@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://hangflow.vercel.app"
+              href="https://menu-pedia.com"
               target="_blank"
             >
               <div>
@@ -152,7 +152,7 @@ const Projects = () => {
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               className="w-full xl:w-1/2 h-auto relative group"
-              href="https://hangflow.org"
+              href="https://hangflow.vercel.app"
               target="_blank"
             >
               <div>
@@ -191,7 +191,7 @@ const Projects = () => {
                   <TbBrandGithub />
                 </a>
                 <a
-                  href="https://hangflow.org"
+                  href="https://hangflow.vercel.app"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
